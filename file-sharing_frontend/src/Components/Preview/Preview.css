@@ -1,0 +1,209 @@
+.Preview__container{
+  width: 20%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column; 
+  box-shadow: -10px 0px 40px 1px rgb(228, 228, 228);
+  animation:previewanime 0.2s ease
+}
+@keyframes previewanime {
+  0%{
+      transform: translateX(100%);
+  }
+  100%{
+      transform: translateX(0%);
+  }
+}
+.box--photo{
+    height: 88%;
+    width: 100%;
+    border-radius: 0px 4px 4px 0px;    
+    border-radius: 4px;
+}
+  
+.Preview__title{
+  cursor: pointer;
+  height: auto;
+  box-sizing: border-box;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.preview__display__container{
+  border-top: 1px solid rgb(212, 212, 212);
+  height: 44%;
+  display: flex;
+  flex-direction: column;
+}
+.preview__display__comment__container{
+  border-top: 1px solid rgb(212, 212, 212);
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+
+}
+.preview--image--container{
+  height: 65%;
+  width:100%;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 10px;
+}
+.preview--image--comment--container{
+  height: 100%;
+  width:100%;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 10px;
+}
+.preview--access--info{
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: first baseline;
+  padding-left: 28px;
+  gap: 10px;
+}
+.preview--who{
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0;
+}
+.preview--images{
+ display: flex;
+ flex-wrap: wrap; 
+ gap: 10px;
+}
+.manage--image{
+  max-height: 34px;
+  height: 100%;
+  max-width: 34px;
+  width: 100%;
+}
+.preview--button{
+  margin-left: auto;
+  margin-bottom: 4px;
+  font-size: 14px;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+.preview__info--container {
+  height: 50%;
+  border-top: 1px solid rgb(207, 207, 207);
+  padding: 16px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  overflow: scroll;
+}
+label{
+  text-align: left;
+}
+.preview__info--container strong {
+  font-size: 1.2em;
+  margin-bottom: 16px;
+  display: block;
+}
+
+.preview__info--container label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.preview__info--container p {
+  margin: 0;
+  font-size: 1em;
+  color: #333;
+}
+
+.preview__info--container::-webkit-scrollbar {
+  height: 40%;
+  width: 3px; /* Set scrollbar width */
+}
+
+.preview__info--container::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Set scrollbar track color */
+}
+
+.preview__info--container::-webkit-scrollbar-thumb {
+  background-color: #888; /* Set scrollbar thumb color */
+  border-radius: 5px; /* Set scrollbar thumb border radius */
+}
+
+/* Adjust scrollbar on hover */
+.preview__info--container::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Set scrollbar thumb color on hover */
+}
+.comment__manage__section{
+  font-size: 1.3rem;
+  box-sizing: border-box;
+  text-align: left;
+  font-weight: bold;
+}
+.comment__container{
+  height:62%;
+}
+.comment__box1::-webkit-scrollbar {
+  width: 3px; /* Change width as needed */
+  height: 10px;
+}
+
+.comment__box1::-webkit-scrollbar-thumb {
+  background-color: #0048ff; /* Change thumb color */
+}
+.comment__box1{
+  height: 88%;
+  background-color: rgb(239, 239, 239);
+  overflow-y: scroll;
+}
+.comment--section{
+  background-color: rgb(246, 246, 246);
+  border: 1px solid rgb(161, 176, 255);
+  margin: 6px;
+  font-weight: 400;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.comment--heading{
+  height: 40px;
+  padding-left: 6px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+.comment--profile{
+  position: relative;
+  text-align: center;
+  top:2px;
+  padding: 4px 8px 4px 8px;
+  font-size: 1.3rem;
+  font-weight: 700;
+  background-color: #37A0EA;
+  color: white;
+  border-radius: 50%;
+}
+.comment__box2{
+  height: 12%;
+  display: flex;
+align-items: center; 
+ gap: 30px;
+}
+.comment--input{
+  width: 100%;
+  padding: 6px;
+  font-size: 1rem;
+  font-weight: 400;
+  border-radius: 4px;
+}

@@ -1,0 +1,20 @@
+.Herosection__container{
+    width: 62%;
+    background-color: rgb(238, 238, 238);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Herosection__container--redefined{
+    width: 82%;
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Herosection__container--popup{
+    /* filter: blur(4px); */
+    /* z-index: -11; */
+    }

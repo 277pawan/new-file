@@ -1,0 +1,136 @@
+.Sidebar__container{
+    width: 18%;
+    height: 100vh;
+    background-color: #37A0EA;
+    display: flex;
+    flex-direction: column;
+    filter: blur(0px);
+}
+.Sidebar__container__popup{
+    width: 18%;
+    height: 100vh;
+    background-color: #37A0EA;
+    display: flex;
+    flex-direction: column;
+    filter: blur(4px);
+}
+.Logo__container{
+    height: 8%;
+    background-color: #3093da;
+}
+.hidden-label {
+    display: none;
+  }
+.Files__container{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    text-align: left;
+    overflow: scroll;
+    height: 80%;
+    box-sizing: border-box;
+    padding: 6px;
+    color: white;
+}
+.Folder__content{
+    margin-left: 12px;
+    width: 100%;
+}
+.Files__container {
+    /* Hide vertical scrollbar */
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+  
+  .Files__container::-webkit-scrollbar {
+    width: 5px; /* Set scrollbar width */
+  }
+  
+  .Files__container::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Set scrollbar track color */
+  }
+  
+  .Files__container::-webkit-scrollbar-thumb {
+    background-color: #888; /* Set scrollbar thumb color */
+    border-radius: 5px; /* Set scrollbar thumb border radius */
+  }
+  
+  /* Adjust scrollbar on hover */
+  .Files__container::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Set scrollbar thumb color on hover */
+  }
+  .create--folder--input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 75%;
+    font-size: 14px;
+    padding: 4px;
+    border-radius: 2px;
+    border-radius: 4px;
+    border: 1px solid rgb(22, 82, 117);
+  }
+  .create--folder--button{
+    font-size: 18px;
+    border-radius: 4px;
+    border: 1px solid rgb(22, 82, 117);
+    margin-left: 2px;
+    color: darkblue;
+  }
+.Files__footer{
+    height: 12%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+.footer__container{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    height: 100%;
+}
+.Folder{
+    margin: 0px;
+    width: 98%;
+}
+.Folder__name{
+    padding: 10px;
+    width: 100%;
+    margin: 0px;
+    /* background-color: red; */
+}
+.Folder__name:hover{
+    cursor: pointer;
+    width: 100%;
+    border-radius: 4px;
+    background-color: rgb(105, 207, 233);
+}
+
+.footer__text{
+    margin-top: 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 13px;
+    color: white;
+    font-weight: 600;
+}
+.ul--list{
+    list-style-type: none;
+    margin: 0;
+    padding-left: 20px;
+}
+.li--list{
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.li--list:hover{
+    cursor: pointer;
+    width: 100%;
+    border-radius: 4px;
+    background-color: rgb(105, 207, 233);
+
+}
+.li--list:active{
+    color: blue;
+}
